@@ -6,7 +6,7 @@ const App = () => {
     <div>
       App is created by ayan
       <Noman />
-      git
+
     </div>
   );
 };
