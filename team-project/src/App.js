@@ -1,29 +1,37 @@
 import React from "react";
 
+// import Ayian from "./component/Ayian";
+import Footer from "./component/Footer";
+
+
 import Hasnat from "./component/Hasnat";
 import Ayian from "./component/Ayian";
-import Qadeer from "./component/Qadeer";
-import Videobanner from "./component/Videobanner";
-import  './App.css'
+
+
+import { Ali } from "./component/Ali";
+
+import FAQs from "./component/FAQs";
 
 
 const App = () => {
   return (
     <>
-
-      <Hasnat />
-
       {/*  Add your components here
-      
        */}
+
+      {/* <Ayian /> */}
+      <Footer/>
+
       <Ayian />
 
-      <Qadeer/>
-      <Videobanner />
+      <Ali />
+
+      <FAQs/>
 
 
     </>
   )
       }
 
-export default App
+
+export default App;
