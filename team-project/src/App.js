@@ -1,12 +1,11 @@
 import React from "react";
-import Ayian from "./component/Ayian";
+import Hasnat from "./component/Hasnat";
+import "./App.css"
 
 const App = () => {
   return (
     <>
-      {/*  Add your components here
-       */}
-      <Ayian />
+      <Hasnat />
     </>
   );
 };
