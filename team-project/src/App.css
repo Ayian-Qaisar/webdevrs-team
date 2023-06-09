@@ -1,3 +1,4 @@
+
 .bd{
     border: 2px solid #e40000;
 }
@@ -6,4 +7,37 @@
     cursor: pointer;
     background-color: #f6f6f6;
     border-radius: 5px;
+
+
+/* Qadeer section style starts from here.... */
+
+.qadeerComponentContainer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic_box img{
+    width: 100%;
+}
+
+/* Hasnat's Component CSS */
+
+.h-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width:766px) {
+    .txt{
+        font-size:20px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btnnn{
+        display:none !important;
+    }
+    
+
 }
