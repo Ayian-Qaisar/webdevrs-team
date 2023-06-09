@@ -1,7 +1,12 @@
 import React from "react";
 
+// import Ayian from "./component/Ayian";
+import Footer from "./component/Footer";
+
+
 import Hasnat from "./component/Hasnat";
 import Ayian from "./component/Ayian";
+
 
 import { Ali } from "./component/Ali";
 
@@ -13,11 +18,16 @@ const App = () => {
     <>
       {/*  Add your components here
        */}
+
+      {/* <Ayian /> */}
+      <Footer/>
+
       <Ayian />
 
       <Ali />
 
       <FAQs/>
+
 
     </>
 
