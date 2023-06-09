@@ -1,5 +1,6 @@
 import React from "react";
 import Ayian from "./component/Ayian";
+import Sameer from "./component/Sameer";
 
 const App = () => {
   return (
@@ -7,6 +8,8 @@ const App = () => {
       {/*  Add your components here
        */}
       <Ayian />
+      <Sameer/>
+
     </>
   );
 };
