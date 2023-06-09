@@ -1,4 +1,5 @@
 import React from "react";
+
 import Ayian from "./component/Ayian";
 import Videobanner from "./component/Videobanner";
 import  './App.css'
@@ -12,7 +13,6 @@ const App = () => {
       <Ayian />
       <Videobanner />
     </>
-  );
-};
+
 
 export default App;
