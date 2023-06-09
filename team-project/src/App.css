@@ -1,0 +1,27 @@
+.component-of-FAQs {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: url(https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png) !important;
+    --bs-accordion-btn-active-icon: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png) !important;
+    --bs-accordion-active-color: green !important;
+    --bs-accordion-active-bg: #fff !important;
+    --bs-accordion-btn-focus-border-color: #fff !important;
+    --bs-accordion-btn-focus-box-shadow:0 0 0 0 #fff !important;
+}
+
+.faq-ul {
+    list-style: none;
+}
+
+.faq-ul li {
+    margin: 15px 0px;
+}
+
+.faq-ul li:before {
+    content: '\2713';
+    color: green;
+    /* border: 1px solid #000; */
+    margin-left: -30px;
+}
