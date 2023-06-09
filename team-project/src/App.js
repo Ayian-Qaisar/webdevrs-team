@@ -1,13 +1,10 @@
 import React from "react";
 
 import Hasnat from "./component/Hasnat";
-import "./App.css"
-
-
 import Ayian from "./component/Ayian";
+import Qadeer from "./component/Qadeer";
 import Videobanner from "./component/Videobanner";
 import  './App.css'
-
 
 
 const App = () => {
@@ -17,9 +14,13 @@ const App = () => {
       <Hasnat />
 
       {/*  Add your components here
+      
        */}
       <Ayian />
+
+      <Qadeer/>
       <Videobanner />
+
 
     </>
 
