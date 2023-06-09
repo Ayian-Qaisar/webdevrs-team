@@ -1,3 +1,11 @@
+
+/* Hasnat's Component CSS */
+
+.h-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+
 @media screen and (max-width:766px) {
     .txt{
         font-size:20px;
@@ -12,4 +20,5 @@
         display:none !important;
     }
     
+
 }
