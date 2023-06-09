@@ -1,13 +1,19 @@
 import React from "react";
-import Ayian from "./component/Ayian";
+import Noman from "./Noman";
+import Saim from "./Saim";
+import Wd from "./Wd";
+import Moeez from "./Moeez";
 
 const App = () => {
   return (
-    <>
-      {/*  Add your components here
-       */}
-      <Ayian />
-    </>
+    <div>
+      App is created by ayan
+      <Noman />
+      <Wd />
+      <Saim />
+      <Moeez />
+      added
+    </div>
   );
 };
 
