@@ -2,7 +2,11 @@ import React from "react";
 
 import Hasnat from "./component/Hasnat";
 import Ayian from "./component/Ayian";
+
+import { Ali } from "./component/Ali";
+
 import FAQs from "./component/FAQs";
+
 
 const App = () => {
   return (
@@ -10,7 +14,11 @@ const App = () => {
       {/*  Add your components here
        */}
       <Ayian />
+
+      <Ali />
+
       <FAQs/>
+
     </>
 
   )
