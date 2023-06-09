@@ -8,6 +8,7 @@ const App = () => {
       App is created by ayan
       <Noman />
       <Wd />
+      added
     </div>
   );
 };
