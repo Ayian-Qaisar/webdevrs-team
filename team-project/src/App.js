@@ -1,22 +1,18 @@
 import React from "react";
-import Noman from "./Noman";
-import Saim from "./Saim";
-import Wd from "./Wd";
-import Moeez from "./Moeez";
-import CardSection from "./Card";
+
+import Ayian from "./component/Ayian";
+import Videobanner from "./component/Videobanner";
+import  './App.css'
+
 
 const App = () => {
   return (
-    <div>
-      App is created by ayan
-      <Noman />
-      <Wd />
-      <Saim />
-      <Moeez />
-      <CardSection />
-      added
-    </div>
-  );
-};
+    <>
+      {/*  Add your components here
+       */}
+      <Ayian />
+      <Videobanner />
+    </>
+
 
 export default App;
