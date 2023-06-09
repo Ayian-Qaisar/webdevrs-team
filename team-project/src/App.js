@@ -3,7 +3,6 @@ import Noman from "./Noman";
 import Saim from "./Saim";
 import Wd from "./Wd";
 import Moeez from "./Moeez";
-import Zaheer from "./Zaheer";
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
       <Wd />
       <Saim />
       <Moeez />
-      <Zaheer />
       added
     </div>
   );
