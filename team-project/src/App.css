@@ -1,7 +1,24 @@
+
 /* Hasnat's Component CSS */
 
 .h-btn:hover{
     background-color: white;
     border: 1px solid black;
     color: black;
+
+@media screen and (max-width:766px) {
+    .txt{
+        font-size:20px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btnnn{
+        display:none !important;
+    }
+    
+
 }
