@@ -1,6 +1,6 @@
 import React from "react";
 import Ayian from "./component/Ayian";
-import { Ali } from "./Ali";
+import { Ali } from "./component/Ali";
 
 const App = () => {
   return (

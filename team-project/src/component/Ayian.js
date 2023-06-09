@@ -1,7 +1,9 @@
 import React from "react";
 
 const Ayian = () => {
-  return <div>Ayian</div>;
+  return <div>
+    
+  </div>;
 };
 
 export default Ayian;
