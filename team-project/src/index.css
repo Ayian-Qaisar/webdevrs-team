@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main-heading{
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.txt{
+  background: none;
+  width: 15ch;
+  animation: type 2.5s alternate infinite steps(26), blink .5s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+  color: rgb(0, 0, 0);
+  font-family: Inconsolata;
+  font-size: 60px;
+  place-items: center;
+}
+
+@keyframes type{
+  from{width: 0%}
+}
+
+@keyframes blink{
+  50%{border-color: transparent}
+}
+
+
+
