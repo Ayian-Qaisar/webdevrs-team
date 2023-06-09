@@ -1,3 +1,5 @@
+/* --------FAQs Section-------------- */
+
 .component-of-FAQs {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,7 +10,7 @@
     --bs-accordion-active-color: green !important;
     --bs-accordion-active-bg: #fff !important;
     --bs-accordion-btn-focus-border-color: #fff !important;
-    --bs-accordion-btn-focus-box-shadow:0 0 0 0 #fff !important;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0 #fff !important;
 }
 
 .faq-ul {
@@ -24,4 +26,43 @@
     color: green;
     /* border: 1px solid #000; */
     margin-left: -30px;
+
+}
+
+/* Qadeer section style starts from here.... */
+
+.qadeerComponentContainer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic_box img {
+    width: 100%;
+}
+
+/* Hasnat's Component CSS */
+
+.h-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+@media screen and (max-width:766px) {
+    .txt {
+        font-size: 20px;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .btnnn {
+        display: none !important;
+    }
+
+
+
 }
