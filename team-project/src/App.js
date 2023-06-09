@@ -1,5 +1,6 @@
 import React from "react";
 import Ayian from "./component/Ayian";
+import { Ali } from "./Ali";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       {/*  Add your components here
        */}
       <Ayian />
+      <Ali />
     </>
   );
 };
