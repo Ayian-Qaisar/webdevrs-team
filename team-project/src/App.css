@@ -1,0 +1,15 @@
+@media screen and (max-width:766px) {
+    .txt{
+        font-size:20px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btnnn{
+        display:none !important;
+    }
+    
+}

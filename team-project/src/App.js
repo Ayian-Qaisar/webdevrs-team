@@ -1,5 +1,8 @@
 import React from "react";
 import Ayian from "./component/Ayian";
+import Videobanner from "./component/Videobanner";
+import  './App.css'
+
 
 const App = () => {
   return (
@@ -7,6 +10,7 @@ const App = () => {
       {/*  Add your components here
        */}
       <Ayian />
+      <Videobanner />
     </>
   );
 };
