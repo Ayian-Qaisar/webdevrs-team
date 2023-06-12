@@ -6,10 +6,19 @@ import Qadeer from "./component/Qadeer";
 import Sameer from "./component/Sameer";
 import Videobannner from "./component/Videobanner";
 
-import { Ali } from "./component/Ali";
+import Zaheer from "./component/Zaheer";
+import "./App.css";
+
+import Zaheer from "./component/Zaheer";
+import "./App.css";
+
+import Sameer from "./component/Sameer";
+
+import Qadeer from "./component/Qadeer";
+import Videobanner from "./component/Videobanner";
+import "./App.css";
 
 import FAQs from "./component/FAQs";
-import Ban_card from "./component/Ban_card";
 
 const App = () => {
   return (
@@ -17,12 +26,9 @@ const App = () => {
       <Videobannner />
       <Hasnat />
       <FAQs />
-      <Qadeer />
-      <Sameer />
-      <Ban_card />
-      <Ali />
+      <Ayian />
 
-      <Footer />
+      <Ali />
     </>
   );
 };
