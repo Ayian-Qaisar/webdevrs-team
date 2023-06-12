@@ -1,22 +1,25 @@
 import React from "react";
-
-// import Ayian from "./component/Ayian";
 import Footer from "./component/Footer";
 
 import Hasnat from "./component/Hasnat";
-import Ayian from "./component/Ayian";
+import Qadeer from "./component/Qadeer";
+import Sameer from "./component/Sameer";
+import Videobannner from "./component/Videobanner";
 
 import { Ali } from "./component/Ali";
 
 import FAQs from "./component/FAQs";
+import Ban_card from "./component/Ban_card";
 
 const App = () => {
   return (
     <>
+      <Videobannner />
       <Hasnat />
       <FAQs />
-      <Ayian />
-
+      <Qadeer />
+      <Sameer />
+      <Ban_card />
       <Ali />
 
       <Footer />
