@@ -25,11 +25,19 @@ const App = () => {
     <>
       <Videobannner />
       <Hasnat />
+      <Ayian />
+      <Sameer/>
+      <Qadeer/>
+      <Videobanner />
+
       <FAQs />
       <Ayian />
 
       <Ali />
     </>
+
+  )
+      }
   );
 };
 export default App;

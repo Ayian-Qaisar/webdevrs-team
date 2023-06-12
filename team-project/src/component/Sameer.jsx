@@ -30,9 +30,8 @@ return (
     <div>
         <Container fluid>
 
-
-        <Row className=' p-5 '>
-        <h1 className='text-center fw-bolder '>Design Anything, Build Everything</h1>
+        <Row className='border p-5 '>
+        <h1 className='text-center fw-bolder mt-5'>Design Anything, Build Everything</h1>
         <p  className='text-center fw-bold text-secondary  my-5'>Design and launch your website fast & no coding knowledge is required.</p>
 
         <Col lg={3}  className=' fs-4 p-0 pe-5 '>
